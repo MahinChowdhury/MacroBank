@@ -1,0 +1,29 @@
+.main_container{
+    -fx-alignment : center;
+    /*-fx-background-color : white;*/
+    -fx-background-color : #BCCEF8;
+}
+
+.title_container{
+    -fx-alignment : top_center;
+}
+
+.menu_container{
+    -fx-alignment : center;
+}
+
+.menu_container Button{
+    /*-fx-background-color: white;*/
+    -fx-background-color : BCCEF8;
+    -fx-text-fill : black;
+    -fx-color : black;
+    -fx-fill : black;
+}
+
+.menu_container Button:hover{
+    -fx-background-color : black;
+    -fx-text-fill : white;
+    -fx-color : white;
+    -fx-fill : white;
+    -fx-font-weight : bold;
+}

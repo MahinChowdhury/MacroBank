@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="account_container" stylesheets="@../Styles/Account.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mahin.macrobank.Controllers.Client.ProfileController">
+   <children>
+      <Text layoutX="361.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Label layoutX="100.0" layoutY="90.0" text="First Name :" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="100.0" layoutY="118.0" text="Last Name :" AnchorPane.topAnchor="130.0" />
+      <Label layoutX="100.0" layoutY="145.0" text="UserID :" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="100.0" layoutY="172.0" text="Current balance :" AnchorPane.topAnchor="210.0" />
+      <Label layoutX="96.0" layoutY="253.0" text="Total Transictions made :" AnchorPane.topAnchor="250.0" />
+      <Label layoutX="100.0" layoutY="199.0" text="Income :" AnchorPane.topAnchor="290.0" />
+      <Label layoutX="99.0" layoutY="226.0" text="Expense :" AnchorPane.topAnchor="330.0" />
+      <Label layoutX="99.0" layoutY="280.0" text="Account Created on :" AnchorPane.topAnchor="370.0" />
+      <Text fx:id="name_fld" layoutX="224.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luca" />
+      <Text fx:id="lname_fld" layoutX="224.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modric" />
+      <Text fx:id="id_fld" layoutX="224.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@lModric" />
+      <Text fx:id="current_fld" layoutX="250.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Balance" />
+      <Text fx:id="total_fld" layoutX="303.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="total" />
+      <Text fx:id="income_fld" layoutX="184.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="income" />
+      <Text fx:id="expense_fld" layoutX="184.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="expense" />
+      <Text fx:id="date_fld" layoutX="281.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" />
+   </children>
+</AnchorPane>

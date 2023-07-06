@@ -1,0 +1,30 @@
+.create_client_container{
+
+    -fx-background-color : #c7eedc;
+}
+.create_client_container VBox{
+    -fx-padding : 10;
+    -fx-spacing : 15;
+    -fx-spacing : 15;
+}
+.create_client_container TextField{
+    -fx-pref-width : 250;
+    -fx-pref-height : 35;
+    -fx-background-color : white;
+    -fx-font-size : 1.3em;
+    -fx-effect : dropshadow(three-pass-box,#AAAAAA,3,0,0,3);
+}
+
+.create_client_container Button{
+    -fx-background-color : linear-gradient(to right,#20b55f,#0b9345);
+    -fx-text-fill : white;
+    -fx-font-size : 1.5em;
+}
+
+.create_client_container Button:hover{
+    -fx-cursor : hand;
+}
+
+.error_label{
+    -fx-text-fill : #FF0000;
+}

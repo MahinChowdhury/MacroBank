@@ -1,0 +1,72 @@
+.dashboard{
+    -fx-background-color : #c7eedc;
+}
+
+.time_box{
+    -fx-alignment : top-right;
+}
+
+.cash_box{
+
+       /*-fx-background-color : #23e97f;*/
+       /*-fx-background-color : linear-gradient(to right,#23e97f,#20b55f);*/
+       -fx-background-color : linear-gradient(to right,#40e0d0,#23e97f);
+       -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+.cash_box:hover{
+
+       -fx-background-color : #00C897;
+
+}
+
+.credit_box{
+
+
+    -fx-background-color : linear-gradient(to right,#F3CCFF,#D09CFA);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+.credit_box:hover{
+
+    -fx-background-color : #D09CFA;
+
+}
+
+.send_container{
+    -fx-background-color : #BCCEF8;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 5;
+    -fx-padding : 20 10 20 10;
+    -fx-spacing : 10;
+    -fx-alignment : center_left;
+}
+.send_container:hover{
+       -fx-background-color : #E6E6FA;
+}
+
+.send_container Label{
+    -fx-font-family : "Calibri Light";
+    -fx-font-size : 1.5em;
+}
+.send_container TextField{
+    -fx-background-color : #EEEEEE;
+    -fx-pref-height : 60;
+    -fx-effect : dropshadow(three-pass-box,#AAAAAA,3,0,0,3);
+}
+
+.send_container Button{
+    -fx-background-color : linear-gradient(to right,#20b55f,#0b9345);
+    -fx-text-fill : white;
+    -fx-font-size : 1.5em;
+}
+
+.send_container Button:hover{
+    -fx-cursor : hand;
+}
+.transaction_listview{
+    -fx-background-color : #c7eedc;
+    -fx-border-width : 0 0 0 0;
+}

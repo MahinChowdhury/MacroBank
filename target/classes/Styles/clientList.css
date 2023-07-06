@@ -1,0 +1,13 @@
+.clientlist_container{
+    -fx-background-color : #c7eedc;
+}
+.clientlist_container .list-view{
+    -fx-background-color : #c7eedc;
+    -fx-border-width : 0;
+}
+
+.clientlist_container .list-cell{
+    -fx-background-color : #c7eedc;
+    -fx-padding : 10 0 10 0;
+}
+

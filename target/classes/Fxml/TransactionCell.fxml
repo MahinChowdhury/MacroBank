@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="60.0" prefWidth="400" styleClass="cell_container" stylesheets="@../Styles/TransactionCell.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutY="5.0" prefHeight="50.0" prefWidth="50.0" styleClass="transaction_icon_container" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <FontAwesomeIconView fx:id="in_arrow" fill="LIME" glyphName="LONG_ARROW_RIGHT" size="17" />
+            <FontAwesomeIconView fx:id="out_arrow" fill="RED" glyphName="LONG_ARROW_LEFT" size="17" />
+         </children>
+      </VBox>
+      <Label fx:id="trans_date_lbl" layoutX="60.0" layoutY="14.0" styleClass="trans_date_lbl" text="2022-07-08" AnchorPane.leftAnchor="70.0" />
+      <Label fx:id="sender_lbl" layoutX="218.0" layoutY="14.0" styleClass="trans_pAddress_lbl" text="John" AnchorPane.leftAnchor="160.0" />
+      <Label fx:id="receiver_lbl" layoutX="296.0" layoutY="14.0" styleClass="trans_pAddress_lbl" text="Micheal" AnchorPane.leftAnchor="270.0" />
+      <Label fx:id="amount_lbl" layoutX="481.0" layoutY="9.0" styleClass="trans_amount_lbl" text="2000" AnchorPane.rightAnchor="10.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="DOLLAR" />
+         </graphic>
+      </Label>
+      <FontAwesomeIconView fill="#cb36d1" glyphName="ARROW_RIGHT" layoutX="234.0" layoutY="26.0" size="15" translateY="2.0" AnchorPane.leftAnchor="240.0" />
+      <Button fx:id="message_btn" layoutX="302.0" layoutY="10.0" mnemonicParsing="false" AnchorPane.rightAnchor="60.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="BELL" size="12" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

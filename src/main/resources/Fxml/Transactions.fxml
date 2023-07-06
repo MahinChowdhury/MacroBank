@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="transaction_controller" stylesheets="@../Styles/Transactions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mahin.macrobank.Controllers.Client.TransactionsController">
+   <Text layoutX="321.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transactions" AnchorPane.leftAnchor="321.0" AnchorPane.topAnchor="13.832763671875" />
+   <ListView fx:id="transactions_list" layoutX="15.0" layoutY="75.0" prefHeight="600.0" prefWidth="830.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="75.0" />
+</AnchorPane>

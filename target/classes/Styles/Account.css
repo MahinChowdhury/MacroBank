@@ -1,0 +1,11 @@
+.account_container{
+    -fx-background-color : #c7eedc;
+}
+
+.account_container Text{
+    -fx-fill : #000000;
+}
+
+.account_container Label{
+    -fx-font-size : 1.5em;
+}
