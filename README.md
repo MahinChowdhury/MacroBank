@@ -1,8 +1,5 @@
 # MacroBank
 
-## Project Visuals : 
-
-
 ## Submitted By : 
 Mahin Rashid Chowdhury 
 Roll : 1907021 
